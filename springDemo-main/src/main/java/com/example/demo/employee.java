@@ -27,3 +27,87 @@ class Employee {
     @Basic@Column(name="password")
     private String password;
 }
+
+'request':{
+    "queryParameters":[
+        {
+        "name": "Department A",
+        "description": "This is department A"
+        }
+        {
+        "id": 1,
+        "name": "Department A",
+        "description": "This is department A"
+        }
+        {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 1
+        }
+        {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 1
+        }
+        {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 2
+        }
+        [
+        {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 2
+        },
+        {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "departmentId": 2
+        }
+        [
+        {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 2
+        },
+        {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "departmentId": 2
+        }
+        [
+        {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 2
+        },
+        {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "departmentId": 2
+        }
+        [
+        {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "departmentId": 2
+        },
+        {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "departmentId": 2
+        }
+        ]
+            ]
+        }
